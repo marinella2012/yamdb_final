@@ -54,11 +54,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           stack_file_name: docker-compose.yaml
           script: |
-<<<<<<< HEAD
             sudo docker ${{ secrets.DOCKER_USERNAME }}/yamdb_final
-=======
-            sudo docker marinella2012/yamdb_final
->>>>>>> a7ce9d5701a5f7aaf66241e00d1a373c5823a821
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env 
@@ -75,13 +71,8 @@ jobs:
     needs: deploy
     steps:
     - name: send message
-<<<<<<< HEAD
       uses: appleboy/telegram-action@master
 
-=======
-      uses: marsmrn/telegram-action@master
-      with:
->>>>>>> a7ce9d5701a5f7aaf66241e00d1a373c5823a821
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: ${{ github.workflow }} успешно выполнен! 
