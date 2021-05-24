@@ -53,7 +53,9 @@ docker-compose exec web python manage.py loaddata fixtures.json
 ```
 docker-compose up -d
 ```
-Перейти в документацию API ([redoc.yaml](https://github.com/marinella2012/infra_sp2/blob/master/static/redoc.yaml)) 
+Перейти в документацию API ([redoc.yaml](https://github.com/marinella2012/yamdb_final/blob/master/static/redoc.yaml)) 
 ```
 http://127.0.0.1:8000/redoc/
 ```
+##Адрес сайта: 
+http://84.201.160.7/api/v1/
