@@ -1,5 +1,5 @@
 # Проект YaMDb
-[![Yamdb-app workflow](https://github.com/marinella2012/yamdb_final/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/marinella2012/yamdb_final/actions)
+![Yamdb-app workflow](https://github.com/marinella2012/yamdb_final/workflows/yamdb_workflow.yml/badge.svg)
 
 REST API для сервиса YaMDb — базы отзывов о фильмах, книгах и музыке.
 
